@@ -1,0 +1,45 @@
+# Rime dictionary
+# encoding: utf-8
+ 
+---
+# 字典文件的基本信息
+# 
+name: luna_pinyin_simp.extended
+version: "2014.11.3"
+sort: by_weight
+use_preset_vocabulary: true
+# 
+import_tables:
+  - luna_pinyin # 從 luna_pinyin.dict.yaml 導入包含單字的碼表（不要自作聪明改成luna_pinyin_simp）
+  #以下是自定义的扩充词库。“c_”开头的是ACsediment制作的“细胞词库”（cell），加一个统一的前缀是为了方便管理。luna_pinyin开头的是Rime翰林院制作的朙月拼音扩充词库。
+  #不想要一个词库，删除该行，或在该行前面加上#号（注释）即可。
+  #你也可以添加自己想要的新词库（而不是将该词库导入你的用户词典），在这里“注册”后，把词库放在用户文件夹下即可。
+  - c_chemistry #化学化工
+  - c_botany #植物学
+  - c_geology #地理地质
+  - c_medicine #中西医
+  - c_stock #股票基金
+  - c_finance #金融
+  - c_nalanxingde_all #纳兰性德全集
+  - c_war3_dota #魔兽争霸3与dota
+  - c_shijing_all #诗经全集
+  - luna_pinyin.hanyu #兼容 明月拼音擴充詞庫 项目的汉语大词典
+  - luna_pinyin.poetry #兼容 明月拼音擴充詞庫 项目的诗歌词典
+  - luna_pinyin.cn_en #兼容 明月拼音擴充詞庫 项目的英文词典（不建议双拼用户使用）
+...
+ 
+# table begins
+
+#下面是自定義的詞條。格式：词汇[TAB]编码[TAB]词频。编码要全部小写，词频往往是100。
+#这里可以自动注音，对于纯中文的输入中文即可。
+#下面是一些示例：
+#
+
+瑾昀	jin yun	100
+瑾昀 #支持自动注音
+ACsediment	acse	100 #输入acse就会出现ACsediment
+ACsediment	a ci si e	100 #同样可以实现输入acse出现ACsediment
+ACsediment	acsediment #编码中间可以不出现空格
+Alpha	a er fa
+α	a er fa	100
+O(∩_∩)O哈哈~	ha ha #另有专门的颜文字扩展词库~
