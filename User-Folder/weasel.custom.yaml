@@ -1,0 +1,31 @@
+#本文件定义输入法的外观、横排竖排等显示模式、右下角图标，并可以在指定程序中关闭中文输入。
+#使用“输入法设定”修改设定后，本文件内的注释都会消失。。慎重。
+#下列选项中，true表示开启，false关闭。
+patch:
+  "style/color_scheme": dota_2 #皮肤设定
+  "style/display_tray_icon": true #开启：右下角输入法状态栏显示图标，方便进行操作。关闭：隐藏图标
+  "style/font_face": "Microsoft YaHei" #字体
+  "style/font_point": 14 #字号
+  "style/fullscreen": false #全屏？？目前未知待测试。
+  "style/horizontal": true #开启：横排显示候选词。关闭：竖排显示。
+  "style/inline_preedit": false #行内预编辑。暂时未知。
+  "style/layout":
+    #显示效果选项
+    border_width: 3
+    candidate_spacing: 5
+    hilite_padding: 2
+    hilite_spacing: 4
+    margin_x: 12
+    margin_y: 12
+    min_height: 0
+    min_width: 160
+    round_corner: 4
+    spacing: 10
+  
+  #
+  #在指定程序中关闭中文输入
+  #使用方法：如下所示，添加两行。
+	#app_options/程序的进程名称：
+  #  ascii_mode: true 
+  app_options/cmd.exe: #这行的开头 空两格，结尾有一个英文冒号
+    ascii_mode: true #这行的开头 空四格。
