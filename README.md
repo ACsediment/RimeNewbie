@@ -64,7 +64,14 @@ luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
 
 http://tieba.baidu.com/p/3169492032
 
+<h3>深蓝词库转换器</h3>
+用于将各个输入法的词库进行相互转换。
+项目地址：<a herf="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>
+注意事项： <a herf="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
+
 <h2>编辑yaml文件一些经验</h2>
+建议使用notepad++，UltraEdit，vim之类的纯文本编辑工具进行编辑。
+
 井号“#”后面的内容，比如本条，都是注释，不起代码的作用，只是用于说明。
 
 使用两个空格作为一个缩进，不能使用tab。
@@ -82,10 +89,13 @@ http://tieba.baidu.com/p/3169492032
 自定义字符。需要修改与symbols.yaml相关的内容并添加注释
 
 <h1>致谢</h1>
+（不仅是项目的致谢，也是作为个人表示由衷感谢...所以有一点多）
 
 佛振 等Rime全体贡献者
 
 Rime翰林院全体成员
+
+<a herf="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>作者及全体贡献者
 
 百度Rime贴吧大小吧主，以及全体活跃大神
 
@@ -95,6 +105,8 @@ Rime翰林院全体成员
 
 百度Rime贴吧 文科980195412 颜文字码表
 
-搜狗细胞词库
+百度Rime贴吧 just4u1314 <a herf="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
+
+搜狗细胞词库工作人员及贡献者
 
 诗词名句网
