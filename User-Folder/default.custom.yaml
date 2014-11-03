@@ -107,7 +107,7 @@ patch:
     Caps_Lock: clear #大小写切换键
     Control_L: noop #左ctrl
     Control_R: noop #右ctrl
-    Eisu_toggle: clear
+    Eisu_toggle: clear # 日文键盘的「英数」转换键
     Shift_L: inline_ascii #左shift
     Shift_R: commit_text #右shift
     
