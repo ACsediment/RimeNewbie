@@ -1,7 +1,7 @@
 RimeNewbie
 ==========
 
-Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼毫）的简体中文用户。
+Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼毫）的简体中文全拼用户（这也区分得太细了吧！）
 
 
 <h1>使用方法：</h1>
@@ -11,6 +11,10 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 2.安装rime输入法后，将user-folder下的文件放到用户文件夹中，将app-folder下的文件放到程序文件夹中。
 
 3.重新部署，即可。
+
+警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置，请留意。
+
+（涉及文件：default.custom.yaml，default.yaml，luna_pinyin_simp.custom.yaml，luna_pinyin_simp.extended.dict.yaml，symbols.yaml）
 
 
 <h1>套餐内容：</h1>
@@ -25,7 +29,9 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 *默认开启“朙月拼音·简化字”扩展词典luna_pinyin_simp.extended.dict.yaml，方便用户添加自造词。
 
-*设定了一套“细胞词库”使用方法，方便用户选择使用细胞词库，并教会用户添加新“细胞词库”的方法。
+*设定了一套“细胞词库”使用方法并提供一些词库，方便用户选择使用细胞词库，并教会用户添加新“细胞词库”的方法。
+
+*兼容<a href="https://github.com/rime-aca">rime翰林院</a>的<a href="https://github.com/rime-aca/dictionaries/tree/master/luna_pinyin.dict">朙月拼音扩充词库</a>项目。设置已经完成，下载所需词库放在“程序文件夹”中即可。
 
 
 
@@ -50,6 +56,9 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 避免混乱，建议统一搞成UTF-8编码。
 
+<h2>更新日志</h2>
+
+2014.11.3 项目建立
 
 <h1>致谢</h1>
 
