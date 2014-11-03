@@ -15,10 +15,14 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置（但不会影响用户词典——用户积累的词），请留意。
 
 （涉及文件：default.custom.yaml，default.yaml，luna_pinyin_simp.custom.yaml，luna_pinyin_simp.extended.dict.yaml，symbols.yaml）
+
 <h2>自定义</h2>
 需要修改自定义设置的用户，只需要打开用户文件夹下的default.custom.yaml和luna_pinyin_simp.extended.dict.yaml即可。文件中有注释，应该很好理解。
+
 各文件作用说明：
+
 default.custom.yaml 定义rime输入法的输入特性，包括输入方案，选词，按键，符号，快捷键等。
+
 luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
 
 
@@ -28,6 +32,8 @@ luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
 
 *开启symbols.yaml方便输入特殊符号。
 
+*开启候选词横排。
+
 *将默认设置部署到default.custom.yaml中，并加以注释说明，方便用户进行自定义，避免一些语法错误。
 
 *默认开启“朙月拼音·简化字”方案的自定义文件luna_pinyin_simp.custom.yaml。
@@ -35,6 +41,8 @@ luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
 *默认开启“朙月拼音·简化字”扩展词典luna_pinyin_simp.extended.dict.yaml，方便用户添加自造词。
 
 *设定了一套“细胞词库”使用方法并提供一些词库，方便用户选择使用细胞词库，并教会用户添加新“细胞词库”的方法。
+
+*提供颜文字，但默认不开启。可以在luna_pinyin_simp.extended.dict.yaml非常方便地开启之。
 
 *兼容<a href="https://github.com/rime-aca">rime翰林院</a>的<a href="https://github.com/rime-aca/dictionaries/tree/master/luna_pinyin.dict">朙月拼音扩充词库</a>项目。设置已经完成，下载所需词库放在“程序文件夹”中即可。
 
@@ -67,16 +75,26 @@ http://tieba.baidu.com/p/3169492032
 
 <h2>更新日志</h2>
 
-2014.11.3 项目建立
+2014.11.3 项目建立。创建细胞词库：植物学 化学化工 金融 地理地质 股票基金 中西医 纳兰性德185首 诗经全文 魔兽争霸与dota 颜文字
+
+<h2>todo</h2>
+
+自定义字符。需要修改与symbols.yaml相关的内容并添加注释
 
 <h1>致谢</h1>
 
 佛振 等Rime全体贡献者
 
+Rime翰林院全体成员
+
 百度Rime贴吧大小吧主，以及全体活跃大神
 
 同时参考了他们的作品：
 
-百度Rime贴吧 半月湾C
+百度Rime贴吧 半月湾C <a herf="http://tieba.baidu.com/p/3288634121">致第一次安装 RIME 的你之修订版</a>
 
-百度Rime贴吧 文科980195412
+百度Rime贴吧 文科980195412 颜文字码表
+
+搜狗细胞词库
+
+诗词名句网
