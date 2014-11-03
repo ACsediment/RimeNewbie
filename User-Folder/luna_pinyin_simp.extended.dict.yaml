@@ -23,6 +23,7 @@ import_tables:
   - c_nalanxingde_all #纳兰性德全集
   - c_war3_dota #魔兽争霸3与dota
   - c_shijing_all #诗经全集
+  #- c_yanwenzi #颜文字词库。默认没有开启，去掉前面的#号即可。
   - luna_pinyin.hanyu #兼容 明月拼音擴充詞庫 项目的汉语大词典
   - luna_pinyin.poetry #兼容 明月拼音擴充詞庫 项目的诗歌词典
   - luna_pinyin.cn_en #兼容 明月拼音擴充詞庫 项目的英文词典（不建议双拼用户使用）
