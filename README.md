@@ -47,7 +47,7 @@ weasel.custom.yaml：定义输入法的外观（横排显示竖排显示，长�
 
 *提供颜文字，但默认不开启。可以在luna_pinyin_simp.extended.dict.yaml非常方便地开启之。
 
-*兼容<a href="https://github.com/rime-aca">rime翰林院</a>的<a href="https://github.com/rime-aca/dictionaries/tree/master/luna_pinyin.dict">朙月拼音扩充词库</a>项目。设置已经完成，下载所需词库放在“程序文件夹”中即可。
+*兼容<a href="https://github.com/rime-aca">rime翰林院</a>的<a href="https://github.com/rime-aca/dictionaries/tree/master/luna_pinyin.dict">朙月拼音扩充词库</a>项目。设置已经完成，下载所需词库放在“用户文件夹”中即可。
 
 
 
