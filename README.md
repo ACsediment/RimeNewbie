@@ -8,7 +8,7 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 1.点击右侧【<a href="https://github.com/ACsediment/RimeNewbie/archive/master.zip">download ZIP</a>】按钮下载压缩包。
 
-2.安装rime输入法后，复制user-folder下的文件，点击开始菜单-小狼毫输入法-【小狼毫】用户文件夹，粘贴替换其中文件<!-- ，将app-folder下的文件放到程序文件夹的data文件夹中-->。
+2.安装rime输入法后，复制user-folder下的文件，点击开始菜单-小狼毫输入法-【小狼毫】用户文件夹，粘贴替换其中文件<del> ，将app-folder下的文件放到程序文件夹的data文件夹中</del>。
 
 3.点击开始菜单-小狼毫输入法-【小狼毫】重新部署。
 
