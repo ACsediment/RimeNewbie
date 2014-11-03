@@ -8,9 +8,9 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 1.点击右侧【<a href="https://github.com/ACsediment/RimeNewbie/archive/master.zip">download ZIP</a>】按钮下载压缩包。
 
-2.安装rime输入法后，将user-folder下的文件放到用户文件夹中，将app-folder下的文件放到程序文件夹的data文件夹中。
+2.安装rime输入法后，复制user-folder下的文件，点击开始菜单-小狼毫输入法-【小狼毫】用户文件夹，粘贴替换其中文件<!-- ，将app-folder下的文件放到程序文件夹的data文件夹中-->。
 
-3.重新部署。
+3.点击开始菜单-小狼毫输入法-【小狼毫】重新部署。
 
 警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置（但不会影响用户词典——用户积累的词），请留意。
 
@@ -37,7 +37,7 @@ weasel.custom.yaml：定义输入法的外观（横排显示竖排显示，长�
 
 *开启候选词横排。
 
-*将默认设置部署到default.custom.yaml中，并加以注释说明，方便用户进行自定义，避免一些语法错误。
+*将多数可以自定义的设置部署到了default.custom.yaml和weasel.yaml中，并加以注释说明，方便用户进行自定义，避免新手从零开始时，被语法错误打退。
 
 *默认开启“朙月拼音·简化字”方案的自定义文件luna_pinyin_simp.custom.yaml。
 
@@ -104,11 +104,11 @@ Rime翰林院全体成员
 
 同时参考了他们的作品：
 
-百度Rime贴吧 半月湾C <a href="http://tieba.baidu.com/p/3288634121">致第一次安装 RIME 的你之修订版</a>
+百度Rime贴吧  半月湾C  <a href="http://tieba.baidu.com/p/3288634121">《致第一次安装 RIME 的你之修订版》</a>
 
-百度Rime贴吧 文科980195412 颜文字码表
+百度Rime贴吧  文科980195412  颜文字码表
 
-百度Rime贴吧 just4u1314 <a href="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
+百度Rime贴吧  just4u1314  <a href="http://tieba.baidu.com/p/2757690418">《关于导入词库及「深蓝词库转换」的正...》</a>
 
 搜狗细胞词库工作人员及贡献者
 
