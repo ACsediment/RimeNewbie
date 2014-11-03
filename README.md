@@ -14,7 +14,8 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置（但不会影响用户词典——用户积累的词），请留意。
 
-（涉及文件：default.custom.yaml，default.yaml，luna_pinyin_simp.custom.yaml，luna_pinyin_simp.extended.dict.yaml，symbols.yaml）
+（涉及文件：default.custom.yaml，luna_pinyin_simp.extended.dict.yaml，symbols.yaml，weasel.custom.yaml）
+（附带影响到：default.yaml，luna_pinyin_simp.custom.yaml，weasel.yaml）
 
 <h2>自定义</h2>
 需要修改自定义设置的用户，只需要打开用户文件夹下的default.custom.yaml和luna_pinyin_simp.extended.dict.yaml即可。文件中有注释，应该很好理解。
@@ -24,6 +25,8 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 default.custom.yaml 定义rime输入法的输入特性，包括输入方案，选词，按键，符号，快捷键等。
 
 luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
+
+weasel.custom.yaml：定义输入法的外观（横排显示竖排显示，长宽高，右下角图标等），并可以在指定程序中关闭中文输入。
 
 
 <h1>套餐内容：</h1>
