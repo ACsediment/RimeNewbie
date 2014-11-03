@@ -31,6 +31,16 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 
 <h1>附录</h1>
+<h2>参考项目</h2>
+<h3>Rime分类词库</h3>
+介绍：http://tieba.baidu.com/p/329518242
+
+项目地址：https://tower.im/projects/7948b427066f46b498aa711c4732c92b/
+
+该项目成果将汇总至<a href=https://github.com/rime-aca>rime翰林院</a>的词典项目https://github.com/rime-aca/dictionaries
+并发布到朙月拼音扩充词库中
+
+
 <h2>编辑yaml文件一些经验</h2>
 井号“#”后面的内容，比如本条，都是注释，不起代码的作用，只是用于说明。
 
