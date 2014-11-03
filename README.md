@@ -8,13 +8,18 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 
 1.点击右侧【download ZIP】按钮下载压缩包。
 
-2.安装rime输入法后，将user-folder下的文件放到用户文件夹中，将app-folder下的文件放到程序文件夹中。
+2.安装rime输入法后，将user-folder下的文件放到用户文件夹中，将app-folder下的文件放到程序文件夹的data文件夹中。
 
-3.重新部署，即可。
+3.重新部署。
 
-警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置，请留意。
+警告：本“套餐”是针对首次使用者设计的，可能会替换您之前做的自定义设置（但不会影响用户词典——用户积累的词），请留意。
 
 （涉及文件：default.custom.yaml，default.yaml，luna_pinyin_simp.custom.yaml，luna_pinyin_simp.extended.dict.yaml，symbols.yaml）
+<h2>自定义</h2>
+需要修改自定义设置的用户，只需要打开用户文件夹下的default.custom.yaml和luna_pinyin_simp.extended.dict.yaml即可。文件中有注释，应该很好理解。
+各文件作用说明：
+default.custom.yaml 定义rime输入法的输入特性，包括输入方案，选词，按键，符号，快捷键等。
+luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
 
 
 <h1>套餐内容：</h1>
@@ -46,6 +51,10 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 该项目成果将汇总至<a href=https://github.com/rime-aca>rime翰林院</a>的词典项目https://github.com/rime-aca/dictionaries
 并发布到朙月拼音扩充词库中
 
+<h3>Rime自动配置工具</h3>
+可以自动配置weasel.custom.yaml 和 default.custom.yaml
+
+http://tieba.baidu.com/p/3169492032
 
 <h2>编辑yaml文件一些经验</h2>
 井号“#”后面的内容，比如本条，都是注释，不起代码的作用，只是用于说明。
@@ -69,3 +78,5 @@ Rime输入法新手入门“套餐”。目前主要针对windows平台（小狼
 同时参考了他们的作品：
 
 百度Rime贴吧 半月湾C
+
+百度Rime贴吧 文科980195412
