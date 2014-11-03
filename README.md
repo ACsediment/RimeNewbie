@@ -69,8 +69,8 @@ http://tieba.baidu.com/p/3169492032
 
 <h3>深蓝词库转换器</h3>
 用于将各个输入法的词库进行相互转换。
-项目地址：<a herf="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>
-注意事项： <a herf="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
+项目地址：<a href="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>
+注意事项： <a href="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
 
 <h2>编辑yaml文件一些经验</h2>
 建议使用notepad++，UltraEdit，vim之类的纯文本编辑工具进行编辑。
@@ -98,17 +98,17 @@ http://tieba.baidu.com/p/3169492032
 
 Rime翰林院全体成员
 
-<a herf="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>作者及全体贡献者
+<a href="https://code.google.com/p/imewlconverter/">深蓝词库转换器</a>作者及全体贡献者
 
 百度Rime贴吧大小吧主，以及全体活跃大神
 
 同时参考了他们的作品：
 
-百度Rime贴吧 半月湾C <a herf="http://tieba.baidu.com/p/3288634121">致第一次安装 RIME 的你之修订版</a>
+百度Rime贴吧 半月湾C <a href="http://tieba.baidu.com/p/3288634121">致第一次安装 RIME 的你之修订版</a>
 
 百度Rime贴吧 文科980195412 颜文字码表
 
-百度Rime贴吧 just4u1314 <a herf="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
+百度Rime贴吧 just4u1314 <a href="http://tieba.baidu.com/p/2757690418">关于导入词库及「深蓝词库转换」的正...</a>
 
 搜狗细胞词库工作人员及贡献者
 
