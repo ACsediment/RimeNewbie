@@ -1,0 +1,4 @@
+patch:
+  "translator/dictionary": luna_pinyin_simp.extended #开启扩展词库luna_pinyin_simp.extended.dict.yaml，在其中进行细胞词库的设定。
+  "punctuator/import_preset": symbols #开启symbols.yaml，可以用/FH等输入特殊符号
+  "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
