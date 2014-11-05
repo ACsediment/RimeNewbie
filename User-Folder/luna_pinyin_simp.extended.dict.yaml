@@ -14,6 +14,7 @@ import_tables:
   #以下是自定义的扩充词库。“c_”开头的是ACsediment制作的“细胞词库”（cell），加一个统一的前缀是为了方便管理。luna_pinyin开头的是Rime翰林院制作的朙月拼音扩充词库。
   #不想要一个词库，删除该行，或在该行前面加上#号（注释）即可。
   #你也可以添加自己想要的新词库（而不是将该词库导入你的用户词典），在这里“注册”后，把词库放在用户文件夹下即可。
+  #注意，如果引用了不存在的词库，会导致重新部署无效。2014.11.5 update
   - c_chemistry #化学化工
   - c_botany #植物学
   - c_geology #地理地质
@@ -24,9 +25,9 @@ import_tables:
   - c_war3_dota #魔兽争霸3与dota
   - c_shijing_all #诗经全集
   #- c_yanwenzi #颜文字词库。默认没有开启，去掉前面的#号即可。
-  - luna_pinyin.hanyu #兼容 明月拼音擴充詞庫 项目的汉语大词典
-  - luna_pinyin.poetry #兼容 明月拼音擴充詞庫 项目的诗歌词典
-  - luna_pinyin.cn_en #兼容 明月拼音擴充詞庫 项目的英文词典（不建议双拼用户使用）
+  #- luna_pinyin.hanyu #兼容 明月拼音擴充詞庫 项目的汉语大词典
+  #- luna_pinyin.poetry #兼容 明月拼音擴充詞庫 项目的诗歌词典
+  #- luna_pinyin.cn_en #兼容 明月拼音擴充詞庫 项目的英文词典（不建议双拼用户使用）
 ...
  
 # table begins
