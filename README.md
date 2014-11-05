@@ -91,6 +91,12 @@ http://tieba.baidu.com/p/3169492032
 
 自定义字符。需要修改与symbols.yaml相关的内容并添加注释
 
+<h2>已知问题及解决</h2>
+
+*使用notepad2打开词库时，需要按F8进行编码转换才能正确显示（或者在files-encoding-recode中选择UTF-8）
+
+*在luna_pinyin_simp.extended.dict.yaml中调用不存在的子词库时，会导致重新部署异常。建议注释掉/删掉不存在的词库引用
+
 <h1>致谢</h1>
 （不仅是项目的致谢，也是作为个人表示由衷感谢...所以有一点多）
 
