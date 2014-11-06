@@ -18,13 +18,13 @@ Rime输入法简中用户新手套餐
 （附带影响到：default.yaml，luna_pinyin_simp.custom.yaml，weasel.yaml）
 
 <h2>自定义</h2>
-需要修改自定义设置的用户，只需要打开用户文件夹下的default.custom.yaml和luna_pinyin_simp.extended.dict.yaml即可。文件中有注释，应该很好理解。
+需要修改自定义设置的用户，只需要修改用户文件夹下的default.custom.yaml、weasel.custom.yaml和luna_pinyin_simp.extended.dict.yaml即可。常见的自定义选项都已经备好了，并有注释，应该很好理解。
 
 各文件作用说明：
 
 default.custom.yaml 定义rime输入法的输入特性，包括输入方案，选词，按键，符号，快捷键等。
 
-luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。
+luna_pinyin_simp.extended.dict.yaml 添加自定义词，增删细胞词库。（细胞词库选择方法：打开文件，选择你要使用的细胞词库，去掉该行的注释符号[#号]。注意，如果你开启了不存在的细胞词库，可能会导致重新部署无效）
 
 weasel.custom.yaml：定义输入法的外观（横排显示竖排显示，长宽高，右下角图标等），并可以在指定程序中关闭中文输入。
 
