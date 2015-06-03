@@ -118,13 +118,13 @@ patch:
   key_binder:
     bindings: 
     #详细说明有待撰写。
-      - {accept: "Control+p", send: Up, when: composing}
-      - {accept: "Control+n", send: Down, when: composing}
-      - {accept: "Control+b", send: Left, when: composing}
-      - {accept: "Control+f", send: Right, when: composing}
-      - {accept: "Control+a", send: Home, when: composing}
-      - {accept: "Control+e", send: End, when: composing}
-      - {accept: "Control+d", send: Delete, when: composing}
+      - {accept: "Control+p", send: Up, when: composing} #ctrl+p，相当于按向上键
+      - {accept: "Control+n", send: Down, when: composing} #向下
+      - {accept: "Control+b", send: Left, when: composing} #向左
+      - {accept: "Control+f", send: Right, when: composing} #向右。以上几个都是操作输入法选词框
+      - {accept: "Control+a", send: Home, when: composing} #相当于Home键
+      - {accept: "Control+e", send: End, when: composing} #相当于End。这两个的效果是切换到你输入的英文的开头或结尾。
+      - {accept: "Control+d", send: Delete, when: composing} 
       - {accept: "Control+k", send: "Shift+Delete", when: composing}
       - {accept: "Control+h", send: BackSpace, when: composing}
       - {accept: "Control+g", send: Escape, when: composing}
@@ -143,13 +143,13 @@ patch:
       - {accept: "Control+Shift+3", toggle: full_shape, when: always}
       - {accept: "Control+Shift+4", toggle: simplification, when: always}
       - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-      - {accept: "Control+Shift+exclam", select: .next, when: always}
-      - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
-      - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
-      - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
-      - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-      - {accept: "Shift+space", toggle: full_shape, when: always}
-      - {accept: "Control+period", toggle: ascii_punct, when: always}
+      - {accept: "Control+Shift+exclam", select: .next, when: always} #ctrl+shift+1
+      - {accept: "Control+Shift+at", toggle: ascii_mode, when: always} #ctrl+shift+2，中英切换
+      - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always} #ctrl+shift+3，全角半角切换
+      - {accept: "Control+Shift+dollar", toggle: simplification, when: always} #ctrl+shift+4，繁简切换
+      - {accept: "Control+Shift+percent", toggle: extended_charset, when: always} #ctrl+shift+5，扩展字符集
+      - {accept: "Shift+space", toggle: full_shape, when: always} #shift+空格，全角半角切换
+      - {accept: "Control+period", toggle: ascii_punct, when: always} #ctrl+句号，中英标点切换
       
       
   recognizer:
